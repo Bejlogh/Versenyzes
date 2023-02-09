@@ -37,4 +37,14 @@ table{
   }
 .flex-container{
     display: flex;
+    padding-left:50px;
+    padding-right: 50px;
+}
+footer{
+    background-color: black;
+}
+.nev{
+    text-align:justify;
+    background-color: black;
+    font-family: serif;
 }
