@@ -1,6 +1,4 @@
-.nav-link{
-    color:azure;
-}
+
 h1{
     text-align:center;
     padding: 10px;
@@ -9,7 +7,8 @@ p{
     padding-left: 30px;
     text-align: justify;
     padding-right: 30px;
-    padding-bottom: 30px;
+    background-color: rgba(255, 254, 254, 0.342);
+    border-radius: 30px;
 
 }
 h2{
@@ -17,7 +16,7 @@ h2{
     padding-bottom: 10px;
 }
 .bg-image{
-    background-image: url(/pics/d.jpg);
+    background-image: url(/pics/d.png);
     background-repeat: no-repeat;
   
 }
@@ -26,12 +25,29 @@ table, th, td{
     border: 2px solid black;
     border-collapse: collapse;
     background-color: rgb(206, 202, 202);
-}
-td{
     padding-right: 10px;
     padding-left: 10px;
+}
+table{
+    padding-bottom: 30px;
 }
 .center {
     margin-left: auto;
     margin-right: auto;
   }
+.container{
+    display: flex;
+    padding-left:50px;
+    padding-right: 50px;
+}
+footer{
+    background-color: black;
+}
+.nev{
+    text-align:justify;
+    background-color: black;
+    font-family: serif;
+}
+h2{
+    text-align: center;
+}
