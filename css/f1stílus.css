@@ -2,29 +2,34 @@
 h1{
     text-align:center;
     padding: 10px;
+    font-family: sans-serif;
+    font-size:75px;
+    text-decoration:double;
 }
 p{
     padding-left: 30px;
     text-align: justify;
     padding-right: 30px;
-    background-color: rgba(255, 254, 254, 0.342);
+    background-color: rgba(255, 254, 254, 0.486);
     border-radius: 30px;
 
 }
 h2{
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    font-size:40px;
+    font-style: italic;
 }
+    
 .bg-image{
     background-image: url(/pics/d.png);
     background-repeat: no-repeat;
-  
+    background-attachment: fixed; 
 }
 table, th, td{
     text-align: center;
     border: 2px solid black;
     border-collapse: collapse;
-    background-color: rgb(206, 202, 202);
+    background-color: rgba(206, 202, 202, 0.918);
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -51,3 +56,4 @@ footer{
 h2{
     text-align: center;
 }
+

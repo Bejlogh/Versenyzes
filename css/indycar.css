@@ -1,6 +1,9 @@
 h1{
     text-align:center;
     padding: 10px;
+    font-family: sans-serif;
+    font-size:75px;
+    text-decoration:double;
 }
 p{
     padding-left: 30px;
@@ -9,10 +12,15 @@ p{
     padding-bottom: 30px;
 
 }
-h2, h3{
-    padding-left: 10px;
-    padding-bottom: 10px;
+ h3{
+    padding: 10px;
     text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    font-size:40px;
+    font-style: italic;
 }
 .center {
     display: block;
@@ -26,4 +34,16 @@ h2, h3{
 .bg-image{
     background-image: url(/pics/e.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+p{
+    padding-left: 30px;
+    text-align: justify;
+    padding-right: 30px;
+    background-color: rgba(255, 254, 254, 0.486);
+    border-radius: 30px;
+
+}
+footer{
+    background-color: black;
 }
