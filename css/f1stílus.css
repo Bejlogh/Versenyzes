@@ -22,7 +22,7 @@ h2{
 }
     
 .bg-image{
-    background-image: url(/pics/d.png);
+    background-image: url(./pics/d.png);
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
